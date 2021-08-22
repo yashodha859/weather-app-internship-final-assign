@@ -1,0 +1,94 @@
+<div class="container">
+
+    <div class="row">
+
+        <h2 class="udupi-karnataka"> {{ weather1.name }} ,{{weather1.sys.country}}</h2>
+    </div>
+
+    <div class="row">
+        <div class="group-11">
+
+            <span class="wrapper">
+                <a class="a-heart" (click)="clickheart()"><img src="assets/images/whiteHeart.png" id="heart"
+                        class="red"></a>
+            </span>
+            <span class="add-to-favourite"> Add to Favourite</span>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <img src="http://openweathermap.org/img/w/{{iconid}}.png" class="icon-mostly-sunny" />
+    </div>
+
+    <div class="row justify-content-center">
+        <label for="toggleGroup" class="temp" id="temp">{{toggleGroup.value}}</label>
+    </div>
+    <mat-button-toggle-group #toggleGroup="matButtonToggleGroup">
+        <mat-button-toggle value={{c}} class="crectangle" checked>
+            <span class="co">o</span>
+            <span class="c">C </span>
+        </mat-button-toggle>
+        <mat-button-toggle value={{f}} class="crectangle">
+            <span class="fo">o</span>
+            <span class="f">F</span>
+
+        </mat-button-toggle>
+    </mat-button-toggle-group>
+        
+           <span class="mostly-sunny"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    {{weather1.weather[0].description}}</span>
+    <br><br><br>
+            <hr class="line-copy">
+
+    <div class="row">
+        <div class="col">
+            <div class="group-6-copy">
+
+                <img src="assets\images\icon_temperature_info.png" class="icon-temperature-info">
+                <span class="min-maxl">Min-Max</span>
+             
+                <div>
+                    <span class="min-max">{{tmin}}</span>
+                    <span class="o-minmax">o - </span>
+                    <span class="min-max">{{tmax}}</span>
+                    <span class="o-minmax">o </span>
+                    <span class="min-max">C</span>
+                </div>
+            </div>
+        </div>
+     
+<div class="col">
+    <img src="assets\images\icon_precipitation_info.png" class="icon-temperature-info">
+    <span class="min-maxl">&nbsp;Cloudiness</span>
+    <div>
+        <span class="min-max">{{weather1.clouds.all}}%</span>
+    </div>
+</div>
+<div class="col">
+    <img src="assets\images\icon_humidity_info.png" class="icon-temperature-info">
+    <span class="min-maxl">&nbsp;Humidity</span>
+    <div>
+        <span class="min-max">{{weather1.main.humidity}}%</span>
+        
+    </div>
+</div>
+<div class="col">
+    <img src="assets\images\icon_wind_info.png" class="icon-temperature-info">
+    <span class="min-maxl">Wind</span>
+    <div>
+        <span class="min-max">{{weather1.main.humidity}}&nbsp;m/sec</span>
+        
+    </div>
+</div>
+<div class="col">
+    <img src="assets\images\icon_visibility_info.png" class="icon-temperature-info">
+    <span class="min-maxl">&nbsp;Visibility</span>
+    <div>
+        <span class="min-max">&nbsp;{{weather1.visibility}}&nbsp; m</span>
+        
+    </div>
+</div>
+    </div>
+</div>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

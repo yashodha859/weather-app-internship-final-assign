@@ -1,0 +1,38 @@
+<br>
+    <div class="container">
+    <div class="row">
+        <div class="col" >
+            <img src="assets\images\logo_web.png" class="logo_web">
+        </div>
+         <div class="col" id="columne">
+          <input  id ="search-city"class="form-control form-control-sm ml-3 w-75" type="text"  #userinput placeholder="Search City" (keyup)="sendit(userinput.value)" value={{input}}/>
+       
+         <button id="butto"class="input-group-text btn btn-outline-primary" [routerLink]="['/search',userinput.value]" routerLinkActive="active"> <img src="assets\images\icon_search_white.png" class="icon-search-white" align="right" />
+         </button>
+        </div>
+</div>   
+       
+
+    
+    
+    <div class="row justify-content-start" [ngClass]="{ 'show': navbarOpen }">
+        <div class="col-md-1">
+            <span class="home" routerLink="home" routerLinkActive="active">HOME</span>
+        </div>
+        <div class="col-md-2">
+            <span class="recent-search" routerLink="recent-search" routerLinkActive="active">RECENT SEARCH</span>
+        </div>
+        <div class="col-md-1">
+            <span class="favourite" routerLink="favourite" routerLinkActive="active">FAVOURITE</span>
+        </div>
+        <div class="col-md-7 text-end">
+            <span class="wed-28-nov-2018-11">{{dateTime | date:'fullDate'}}</span>
+        </div>
+       
+    </div>
+</div>
+<hr class="line-copy">
+<div class="container">
+    <router-outlet></router-outlet>
+  </div>
+

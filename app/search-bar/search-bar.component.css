@@ -1,0 +1,275 @@
+.udupi-karnataka {
+  height: 24px;
+  width: 200px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+  
+}
+.group-11 {
+    height: 17px;
+    width: 250px;
+  }
+  .add-to-favourite {
+    height: 15px;
+    width: 150px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+  }
+  .icon-favourite {
+    height: 17px;
+    width: 18px;
+  }
+  .path {
+    box-sizing: border-box;
+    height: 16.97px;
+    width: 18px;
+    border: 1.5px solid #FFFFFF;
+  }
+  .icon-mostly-sunny {
+    height: 84px;
+    width: 80px;
+   
+  }
+  .background1{
+ top: 100px;
+
+  }
+  .group-12 {
+    height: 75px;
+    width: 134px;
+  }
+  .temp {
+    height: 75px;
+    width: 73px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 75px;
+    
+    
+  }
+  .cf {
+    height: 30px;
+    width: 55px;
+  }
+  /*------------------------------------------------------------------------------------------------------*/
+  .switch{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .weather{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 50px 50px 50px 50px;
+    width: 50%;
+    height: auto;
+    position: relative;
+  }
+  #location{
+    font-size: 2em;
+    padding-bottom: .5em;
+  }
+  #currentTemp{
+    font-size: 1.5em;
+    display: inline-block;
+  }
+  #forc{
+    color: black;
+    display: inline-block;
+    font-size: 1em;
+  }
+  #icon{
+    width: 100%;
+    height: auto;
+  }
+
+  .cf {
+    height: 30px;
+    width: 55px;
+  }
+  .group-3-copy {
+    height: 30px;
+    width: 28px;
+  }
+  .fo {
+    height: 13px;
+    width: 7px;
+    color: #E32843;
+    font-family: Roboto;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 13px;
+  }
+  .f {
+    height: 19px;
+    width: 9px;
+    color: #E32843;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  .frectangle {
+    box-sizing: border-box;
+    height: 30px;
+    width: 28px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+  }
+  .group-3 {
+    height: 30px;
+    width: 28px;
+  }
+  .c {
+    height: 19px;
+    width: 11px;
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  .co {
+    height: 13px;
+    width: 7px;
+    color: black;
+    font-family: Roboto;
+    font-size: 11px;
+    letter-spacing: 0;
+    
+    line-height: 0px;
+  }
+  .crectangle {
+    box-sizing: border-box;
+   
+    border: 1px solid #FFFFFF;
+    border-radius: 2px 0 0 2px;
+  }
+  mat-button-toggle-group {
+    box-shadow: none;
+    left:600px;
+    top:-45px;
+    height:50px;
+    width:130px;
+  }
+  
+  mat-button-toggle {
+      border: 1px rgba(0,0,0,0) solid !important;
+      margin-top: 5px !important;
+      padding: 30 5px !important;
+      z-index: 3 !important;
+      background-color: rgba(255,255,255,0.6);
+  }
+  
+  mat-button-toggle:hover {
+      border: 1px #000 solid !important;
+      background-color: #FFF !important;
+      border-radius: 5px !important;
+  }
+  
+  .mat-button-toggle-checked {
+      box-shadow: 0 0 30px #000 !important;
+      border: 1px #000 solid !important;
+      border-radius: 5px !important;
+      background-color: #FFF !important;
+  }
+  
+  .mat-button-toggle-input {
+      background-color: none !important;
+      padding-left: 10px !important;
+  }
+  .mostly-sunny {
+    height: 25px;
+    width: 200px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25px;
+   
+  }
+  .line-copy {
+    box-sizing: border-box;
+    height: 1px;
+    width: 960px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.3;
+  }  
+  .group-6-copy {
+    height: 49px;
+    width: 108px;
+  }
+  .o-copy {
+    height: 13px;
+    width: 7px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 13px;
+    left:58px;
+    right:46px;
+  }
+  .mo {
+    height: 13px;
+    width: 7px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 13px;
+  }
+  .min-max {
+    height: 25px;
+    width: 69px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  .icon-temperature-info {
+    height: 32px;
+    width: 16px;
+  }
+  .min-maxl {
+    height: 18px;
+    width: 66px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  .container{
+    float: right;
+  }
+  .fa-heart-o {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .fa-heart {
+    color: red;
+    cursor: pointer;
+  }
+  .o-minmax{
+    vertical-align: super;
+    color:white;
+  }
